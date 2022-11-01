@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class ArrowButton : MonoBehaviour
 {
-    private Touch initTouch = new Touch();
     public GameObject defindedButton;
     public Camera cam;
 
@@ -30,7 +29,6 @@ public class ArrowButton : MonoBehaviour
                     RaycastHit Hit;
                     if (Physics.Raycast(ray, out Hit))
                     {
-                        Debug.Log("c");
                         switch (Hit.collider.gameObject.tag)
                         {
                             case "front":
@@ -50,21 +48,7 @@ public class ArrowButton : MonoBehaviour
                         //OnClick.Invoke();
                     }
                 }
-                else
-                {
-                    Debug.Log("no touch");
-                }
             }
-
-            //RaycastHit hitInfo = new RaycastHit();
-            //bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(touch.position), out hitInfo);
-            //if (hit)
-            //{
-            //    if (hitInfo.transform.gameObject.tag == "front")
-            //    {
-            //        Debug.Log("Front!");
-            //    } else { Debug.Log("hmmm");}
-            //} else {Debug.Log("no hit");
         }
     }
 }
