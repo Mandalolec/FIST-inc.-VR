@@ -28,14 +28,26 @@ public class ArrowButton : MonoBehaviour
                 {
                     var ray = cam.ScreenPointToRay(touch.position);
                     RaycastHit Hit;
-                    if (Physics.Raycast(ray, out Hit) && Hit.collider.gameObject.CompareTag("front"))
+                    if (Physics.Raycast(ray, out Hit))
                     {
-                        Debug.Log("click");
-                        OnClick.Invoke();
-                    }
-                    else
-                    {
-                        Debug.Log("no ray");
+                        Debug.Log("c");
+                        switch (Hit.collider.gameObject.tag)
+                        {
+                            case "front":
+                                Debug.Log("front");
+                                break;
+                            case "back":
+                                Debug.Log("back");
+                                break;
+                            case "left":
+                                Debug.Log("left");
+                                break;
+                            case "right":
+                                Debug.Log("right");
+                                break;
+                        }
+                        
+                        //OnClick.Invoke();
                     }
                 }
                 else
