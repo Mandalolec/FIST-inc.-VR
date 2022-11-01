@@ -123,53 +123,41 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &165585583 stripped
+--- !u!1 &40919614 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
-  m_PrefabInstance: {fileID: 910495276}
+  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
+  m_PrefabInstance: {fileID: 2105849936}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &165585584
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165585583}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &165585585
+--- !u!114 &40919618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165585583}
+  m_GameObject: {fileID: 40919614}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defindedButton: {fileID: 165585583}
+  defindedButton: {fileID: 40919614}
   cam: {fileID: 963194227}
   OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 463930439}
-        m_TargetAssemblyTypeName: buttonAction, Assembly-CSharp
-        m_MethodName: buttonMethod
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!65 &40919619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40919614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &259715463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
@@ -191,19 +179,7 @@ MonoBehaviour:
   cam: {fileID: 963194227}
   OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 463930439}
-        m_TargetAssemblyTypeName: buttonAction, Assembly-CSharp
-        m_MethodName: buttonMethod
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!65 &259715466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -554,6 +530,41 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!1 &1577749883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
+  m_PrefabInstance: {fileID: 1912794220}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1577749887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577749883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defindedButton: {fileID: 1577749883}
+  cam: {fileID: 963194227}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &1577749888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577749883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1744668703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -784,10 +795,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
       propertyPath: m_TagString
-      value: rigth
+      value: right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
+--- !u!1 &1985308836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
+  m_PrefabInstance: {fileID: 1744668703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1985308840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985308836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defindedButton: {fileID: 1985308836}
+  cam: {fileID: 963194227}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!65 &1985308841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985308836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000005, y: 0.2, z: 2.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105849936
 PrefabInstance:
   m_ObjectHideFlags: 0
