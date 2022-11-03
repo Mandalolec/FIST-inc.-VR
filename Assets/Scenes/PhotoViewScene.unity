@@ -135,16 +135,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40919614}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defindedButton: {fileID: 40919614}
-  cam: {fileID: 963194227}
-  OnClick:
-    m_PersistentCalls:
-      m_Calls: []
+  camera: {fileID: 963194227}
+  material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
 --- !u!65 &40919619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -215,16 +213,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259715463}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defindedButton: {fileID: 259715463}
-  cam: {fileID: 963194227}
-  OnClick:
-    m_PersistentCalls:
-      m_Calls: []
+  camera: {fileID: 963194227}
+  material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
 --- !u!65 &259715466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -465,6 +461,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -575,6 +572,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defindedButton: {fileID: 0}
+  camera: {fileID: 963194227}
+  material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
 --- !u!1 &1577749883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
@@ -587,16 +599,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577749883}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defindedButton: {fileID: 1577749883}
-  cam: {fileID: 963194227}
-  OnClick:
-    m_PersistentCalls:
-      m_Calls: []
+  camera: {fileID: 963194227}
+  material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
 --- !u!65 &1577749888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -730,7 +740,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9945da7cb0d073043aa2c8e8ac45f46a, type: 2}
+  - {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -856,16 +866,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985308836}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: baab2b48932fefa40943dfa3e966c4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defindedButton: {fileID: 1985308836}
-  cam: {fileID: 963194227}
-  OnClick:
-    m_PersistentCalls:
-      m_Calls: []
+  camera: {fileID: 963194227}
+  material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
 --- !u!65 &1985308841
 BoxCollider:
   m_ObjectHideFlags: 0

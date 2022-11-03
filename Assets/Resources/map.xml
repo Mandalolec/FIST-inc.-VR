@@ -3,31 +3,31 @@
     <Photos>
         <Photo>
             <id>MC1</id>
-            <path>/Photos/MediaCluster/MC1</path>
+            <path>Photos/MediaCluster/MC1</path>
         </Photo>
         <Photo>
             <id>MC2</id>
-            <path>/Photos/MediaCluster/MC2</path>
+            <path>Photos/MediaCluster/MC2</path>
         </Photo>
         <Photo>
             <id>MC3</id>
-            <path>/Photos/MediaCluster/MC3</path>
+            <path>Photos/MediaCluster/MC3</path>
         </Photo>
         <Photo>
             <id>MC4</id>
-            <path>/Photos/MediaCluster/MC4</path>
+            <path>Photos/MediaCluster/MC4</path>
         </Photo>
         <Photo>
             <id>MC5</id>
-            <path>/Photos/MediaCluster/MC5</path>
+            <path>Photos/MediaCluster/MC5</path>
         </Photo>
         <Photo>
             <id>MC6</id>
-            <path>/Photos/MediaCluster/MC6</path>
+            <path>Photos/MediaCluster/MC6</path>
         </Photo>
         <Photo>
             <id>MC7</id>
-            <path>/Photos/MediaCluster/MC7</path>
+            <path>Photos/MediaCluster/MC7</path>
         </Photo>
     </Photos>
     <Nodes>

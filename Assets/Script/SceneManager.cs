@@ -67,15 +67,5 @@ public class SceneManager : MonoBehaviour
         Photos = photos;
         Nodes = nodes;
         State = nodes[0];
-
-        foreach (var photo in Photos)
-        {
-            Debug.Log($"{photo.Path}");
-        }
-
-        foreach (var node in Nodes)
-        {
-            Debug.Log($"{node.Main}");
-        }
     }
 }
