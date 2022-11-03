@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ArrowButton : MonoBehaviour
+public class ArrowButtonController : MonoBehaviour
 {
     public GameObject defindedButton;
     public Camera cam;
@@ -33,19 +31,21 @@ public class ArrowButton : MonoBehaviour
                         {
                             case "front":
                                 Debug.Log("front");
+                                OnClick.Invoke();
                                 break;
                             case "back":
                                 Debug.Log("back");
+                                OnClick.Invoke();
                                 break;
                             case "left":
                                 Debug.Log("left");
+                                OnClick.Invoke();
                                 break;
                             case "right":
                                 Debug.Log("right");
+                                OnClick.Invoke();
                                 break;
                         }
-                        
-                        //OnClick.Invoke();
                     }
                 }
             }

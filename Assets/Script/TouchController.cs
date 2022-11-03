@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Swiper : MonoBehaviour
+public class TouchController : MonoBehaviour
 {
 
     private Touch initTouch = new Touch();
