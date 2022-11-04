@@ -3,17 +3,19 @@ using UnityEngine.Events;
 
 public class ArrowButtonController : MonoBehaviour
 {
-    private Touch initTouch = new Touch();
-
     public GameObject defindedButton;
     public Camera camera;
 
     public Material material;
 
+    public GameObject[] buttons;
+
     // Start is called before the first frame update
     void Start()
     {
         defindedButton = this.gameObject;
+
+        EnableButtons(SceneManager.State);
     }
 
     // Update is called once per frame
@@ -72,13 +74,20 @@ public class ArrowButtonController : MonoBehaviour
         }
 
         path = SceneManager.Photos.Find(x => x.Id == state.Main);
-
         SceneManager.State = state;
-
-        Debug.Log(path.Path.ToString());
 
         Cubemap map = Resources.Load<Cubemap>(path.Path.ToString());
 
         material.SetTexture("_Tex", map);
+
+        EnableButtons(state);
+    }
+
+    private void EnableButtons(Node state)
+    {
+        buttons[0].gameObject.SetActive(state.Back != null);
+        buttons[1].gameObject.SetActive(state.Front != null);
+        buttons[2].gameObject.SetActive(state.Left != null);
+        buttons[3].gameObject.SetActive(state.Right != null);
     }
 }
