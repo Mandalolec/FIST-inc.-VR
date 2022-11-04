@@ -32,7 +32,6 @@ public class ArrowButtonController : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out Hit))
                 {
-                    Debug.Log(Hit.collider.gameObject.tag.ToString());
                     SwitchPicture(Hit.collider.gameObject.tag.ToString());
                 }
             }

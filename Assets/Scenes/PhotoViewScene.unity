@@ -143,6 +143,7 @@ MonoBehaviour:
   defindedButton: {fileID: 40919614}
   camera: {fileID: 963194227}
   material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
+  buttons: []
 --- !u!65 &40919619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -221,6 +222,7 @@ MonoBehaviour:
   defindedButton: {fileID: 259715463}
   camera: {fileID: 963194227}
   material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
+  buttons: []
 --- !u!65 &259715466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -404,7 +406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -587,6 +589,11 @@ MonoBehaviour:
   defindedButton: {fileID: 0}
   camera: {fileID: 963194227}
   material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
+  buttons:
+  - {fileID: 1985308836}
+  - {fileID: 259715463}
+  - {fileID: 40919614}
+  - {fileID: 1577749883}
 --- !u!1 &1577749883 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 1779a62e315b01e43be230a68bcf42c6, type: 3}
@@ -607,6 +614,7 @@ MonoBehaviour:
   defindedButton: {fileID: 1577749883}
   camera: {fileID: 963194227}
   material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
+  buttons: []
 --- !u!65 &1577749888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -874,6 +882,7 @@ MonoBehaviour:
   defindedButton: {fileID: 1985308836}
   camera: {fileID: 963194227}
   material: {fileID: 2100000, guid: c251408047cc42e48a5e11e96f6ebd37, type: 2}
+  buttons: []
 --- !u!65 &1985308841
 BoxCollider:
   m_ObjectHideFlags: 0
