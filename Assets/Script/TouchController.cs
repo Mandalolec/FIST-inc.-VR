@@ -81,5 +81,11 @@ public class TouchController : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //user pressed back key
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene");
+        }
     }
 }

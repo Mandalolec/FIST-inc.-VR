@@ -66,6 +66,6 @@ public class SceneManager : MonoBehaviour
 
         Photos = photos;
         Nodes = nodes;
-        State = nodes[0];
+        //State = nodes[0];
     }
 }
