@@ -7,13 +7,6 @@
       "dependencies": {},
       "url": "https://registry.spoiledcat.com"
     },
-    "com.unity.cinemachine": {
-      "version": "2.6.17",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.collab-proxy": {
       "version": "1.17.2",
       "depth": 0,
@@ -104,12 +97,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "io.realm.unity": {
-      "version": "file:../io.realm.unity-10.17.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
