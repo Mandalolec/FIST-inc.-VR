@@ -4,13 +4,28 @@ using UnityEngine;
 
 public class TouchMenuController : MonoBehaviour
 {
-    // Update is called once per frame
+    public GameObject startMenu;
+    public GameObject secondMenu;
+    public GameObject secondMenuContent;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            //user pressed back key
-            Application.Quit();
+            if (secondMenu.activeSelf)
+            {
+                startMenu.gameObject.SetActive(true);
+                secondMenu.gameObject.SetActive(false);
+
+                foreach (Transform child in secondMenuContent.transform)
+                {
+                    Destroy(child.gameObject);
+                }
+            }
+            else
+            {
+                Application.Quit();
+            }
         }
     }
 }

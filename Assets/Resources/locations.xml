@@ -1,23 +1,36 @@
 ﻿<?xml version="1.0"?>
 <Locations>
-    <Location>
-        <name>MediaCluster</name>
-        <description>Медиакластер, 7 этаж</description>
-        <startId>MC1</startId>
-    </Location>
-    <Location>
-        <name>FirstFloor</name>
-        <description>Первый этаж</description>
-        <startId>First1</startId>
-    </Location>
-    <Location>
-        <name>Buffet</name>
-        <description>Буфет, 6 этаж</description>
-        <startId>B1</startId>
-    </Location>
-    <Location>
-        <name>FiveFloor</name>
-        <description>5 этаж</description>
-        <startId>Five1</startId>
-    </Location>
+    <Building>
+        <Name>BuildFour</Name>
+        <Description>4 корпус</Description>
+        <Location>
+            <name>MediaCluster</name>
+            <description>Медиакластер, 7 этаж</description>
+            <startId>MC1</startId>
+        </Location>
+        <Location>
+            <name>FirstFloor</name>
+            <description>Первый этаж</description>
+            <startId>First1</startId>
+        </Location>
+        <Location>
+            <name>Buffet</name>
+            <description>Буфет, 6 этаж</description>
+            <startId>B1</startId>
+        </Location>
+        <Location>
+            <name>FiveFloor</name>
+            <description>5 этаж</description>
+            <startId>Five1</startId>
+        </Location>
+    </Building>
+	<Building>
+		<Name>BuildFirst</Name>
+		<Description>1 корпус</Description>
+		<Location>
+			<name>Hall</name>
+			<description>Холл, 1 этаж</description>
+			<startId>H1</startId>
+		</Location>
+	</Building>
 </Locations>
