@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +15,10 @@ public class ArrowButtonController : MonoBehaviour
     void Start()
     {
         defindedButton = this.gameObject;
+
+        Photo path = SceneManager.Photos.Find(x => x.Id == SceneManager.State.Main);
+
+        TextureSet(path);
 
         EnableButtons(SceneManager.State);
     }
@@ -75,10 +80,7 @@ public class ArrowButtonController : MonoBehaviour
         path = SceneManager.Photos.Find(x => x.Id == state.Main);
         SceneManager.State = state;
 
-        Cubemap map = Resources.Load<Cubemap>(path.Path.ToString());
-
-        material.SetTexture("_Tex", map);
-
+        TextureSet(path);
         EnableButtons(state);
     }
 
@@ -88,5 +90,12 @@ public class ArrowButtonController : MonoBehaviour
         buttons[1].gameObject.SetActive(state.Front != null);
         buttons[2].gameObject.SetActive(state.Left != null);
         buttons[3].gameObject.SetActive(state.Right != null);
+    }
+
+    private void TextureSet(Photo photo)
+    {
+        Cubemap map = Resources.Load<Cubemap>(photo.Path.ToString());
+
+        material.SetTexture("_Tex", map);
     }
 }

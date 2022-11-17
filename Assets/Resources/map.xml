@@ -29,6 +29,22 @@
             <id>MC7</id>
             <path>Photos/MediaCluster/MC7</path>
         </Photo>
+	    <Photo>
+		    <id>MS1</id>
+		    <path>Photos/MediaCluster/MS1</path>
+	    </Photo>
+	    <Photo>
+		    <id>MS2</id>
+		    <path>Photos/MediaCluster/MS2</path>
+	    </Photo>
+	    <Photo>
+		    <id>508_1</id>
+		    <path>Photos/508/508_1</path>
+	    </Photo>
+	    <Photo>
+		    <id>508_2</id>
+		    <path>Photos/508/508_2</path>
+	    </Photo>
     </Photos>
     <Nodes>
         <node>
@@ -57,7 +73,7 @@
             <left>MC1</left>
             <right>MC5</right>
             <front>null</front>
-            <back>null</back>
+            <back>MS1</back>
         </node>
         <node>
             <main>MC5</main>
@@ -80,5 +96,33 @@
             <front>null</front>
             <back>MC6</back>
         </node>
+	    <node>
+		    <main>MS1</main>
+		    <left>null</left>
+		    <right>MS2</right>
+		    <front>MC4</front>
+		    <back>null</back>
+	    </node>
+	    <node>
+		    <main>MS2</main>
+		    <left>MS1</left>
+		    <right>null</right>
+		    <front>null</front>
+		    <back>null</back>
+	    </node>
+	    <node>
+		    <main>508_1</main>
+		    <left>null</left>
+		    <right>null</right>
+		    <front>508_2</front>
+		    <back>null</back>
+	    </node>
+	    <node>
+		    <main>508_2</main>
+		    <left>null</left>
+		    <right>null</right>
+		    <front>null</front>
+		    <back>508_1</back>
+	    </node>
     </Nodes>
 </Map>

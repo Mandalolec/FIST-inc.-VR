@@ -9,19 +9,14 @@
             <startId>MC1</startId>
         </Location>
         <Location>
-            <name>FirstFloor</name>
-            <description>Первый этаж</description>
-            <startId>First1</startId>
+            <name>MediaStudio</name>
+            <description>Медиастудия, медиакластер</description>
+            <startId>MS1</startId>
         </Location>
         <Location>
-            <name>Buffet</name>
-            <description>Буфет, 6 этаж</description>
-            <startId>B1</startId>
-        </Location>
-        <Location>
-            <name>FiveFloor</name>
-            <description>5 этаж</description>
-            <startId>Five1</startId>
+            <name>508</name>
+            <description>Аудитория 508</description>
+            <startId>508_1</startId>
         </Location>
     </Building>
 	<Building>
