@@ -18,14 +18,15 @@
             <description>Аудитория 508</description>
             <startId>508_1</startId>
         </Location>
-    </Building>
-	<Building>
-		<Name>BuildFirst</Name>
-		<Description>1 корпус</Description>
 		<Location>
-			<name>Hall</name>
-			<description>Холл, 1 этаж</description>
-			<startId>H1</startId>
+			<name>AssemblyHall</name>
+			<description>Аудитория 317, актовый зал</description>
+			<startId>AH1</startId>
 		</Location>
-	</Building>
+	    <Location>
+		    <name>Buffet6</name>
+		    <description>Буфет, 6 этаж</description>
+		    <startId>B6_1</startId>
+	    </Location>
+    </Building>
 </Locations>

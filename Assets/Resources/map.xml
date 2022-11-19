@@ -45,6 +45,18 @@
 		    <id>508_2</id>
 		    <path>Photos/508/508_2</path>
 	    </Photo>
+		<Photo>
+			<id>AH1</id>
+			<path>Photos/AssemblyHall/AH1</path>
+		</Photo>
+		<Photo>
+			<id>AH2</id>
+			<path>Photos/AssemblyHall/AH2</path>
+		</Photo>
+		<Photo>
+			<id>B6_1</id>
+			<path>Photos/Buffet6/B6_1</path>
+		</Photo>
     </Photos>
     <Nodes>
         <node>
@@ -124,5 +136,26 @@
 		    <front>null</front>
 		    <back>508_1</back>
 	    </node>
+	    <node>
+		    <main>AH1</main>
+		    <left>null</left>
+		    <right>null</right>
+		    <front>null</front>
+		    <back>AH2</back>
+	    </node>
+	    <node>
+		    <main>AH2</main>
+		    <left>null</left>
+		    <right>null</right>
+		    <front>AH1</front>
+		    <back>null</back>
+	    </node>
+		<node>
+			<main>B6_1</main>
+			<left>null</left>
+			<right>null</right>
+			<front>null</front>
+			<back>null</back>
+		</node>
     </Nodes>
 </Map>
